@@ -1,0 +1,467 @@
+# bin1_signal, bin2_signal, bin3_signal, bin4_signal REGIONS
+SR:
+  bin:
+    - SR:28
+  Process:
+    - bin1_signal bin2_signal bin3_signal bin4_signal bin1_zjets bin2_zjets bin3_zjets bin4_zjets bin1_wjets bin2_wjets bin3_wjets bin4_wjets bin1_tt bin2_tt bin3_tt bin4_tt bin1_singlet bin2_singlet bin3_singlet bin4_singlet bin1_diboson bin2_diboson bin3_diboson bin4_diboson bin1_smh bin2_smh bin3_smh bin4_smh
+  process1:
+    - -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+  rate:
+    - -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+  NuisForProc:
+    - lumi_YEAR:                [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_BeamCC:              [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_BeamBE:              [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_GhostS:              [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_LengthS:             [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_X_Y_Fact:            [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_PU:               [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_trig_ele:         []
+    - CMSYEAR_eff_b:            [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_fake_b:           [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_EleID:            []
+    - CMSYEAR_EleRECO:          []
+    - CMSYEAR_MuISO:            []
+    - CMSYEAR_MuID:             []
+    - CMSYEAR_veto_tau:         [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECAbsolute:              [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECAbsolute_YEAR:         [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECBBEC1:                 [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECBBEC1_YEAR:            [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECEC2:                   [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECEC2_YEAR:              [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECFlavorQCD:             [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECHF:                    [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECHF_YEAR:               [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECRelativeBal:           [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECRelativeSample_YEAR:   [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - norm_stop:                [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - norm_diboson:             [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - norm_smh:                 [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_pdf:              [bin1_zjets, bin2_zjets, bin3_zjets, bin4_zjets, bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_mu_scale_dyjets:  [bin1_zjets, bin2_zjets, bin3_zjets, bin4_zjets]
+    - CMSYEAR_mu_scale_wjets:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets]
+    - CMSYEAR_mu_scale_tt:      [bin1_tt, bin2_tt, bin3_tt, bin4_tt ]
+    - CMSYEAR_mu_scale_singlet: [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - CMSYEAR_mu_scale_diboson: [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - CMSYEAR_mu_scale_smh:     [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_trig_met:         [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    # - CMSYEAR_muon_prefiring: []
+    - CMSYEAR_prefire:          [bin1_signal, bin2_signal, bin3_signal, bin4_signal, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    # - norm_dyjets:              [bin1_zjets, bin2_zjets, bin3_zjets, bin4_zjets]
+
+  UnclnN:
+    - lumi_YEAR                 1.02
+    - lumi_BeamCC               1.003
+    - lumi_BeamBE               1.006
+    - lumi_GhostS               1.003
+    - lumi_LengthS              1.003
+    - lumi_X_Y_Fact             1.003
+    - CMSYEAR_PU                shape
+    - CMSYEAR_trig_ele          shape
+    - CMSYEAR_eff_b             shape
+    - CMSYEAR_fake_b            shape
+    - CMSYEAR_EleID             shape
+    - CMSYEAR_EleRECO           shape
+    - CMSYEAR_MuISO             shape
+    - CMSYEAR_MuID              shape
+    - CMSYEAR_veto_tau          1.03
+    - JECAbsolute               shape
+    - JECAbsolute_YEAR          shape
+    - JECBBEC1                  shape
+    - JECBBEC1_YEAR             shape
+    - JECEC2                    shape
+    - JECEC2_YEAR               shape
+    - JECFlavorQCD              shape
+    - JECHF                     shape
+    - JECHF_YEAR                shape
+    - JECRelativeBal            shape
+    - JECRelativeSample_YEAR    shape
+    - norm_stop                 1.1
+    - norm_diboson              1.2
+    - norm_smh                  1.2
+    - CMSYEAR_pdf               shape
+    - CMSYEAR_mu_scale_dyjets   shape
+    - CMSYEAR_mu_scale_wjets    shape
+    - CMSYEAR_mu_scale_tt       shape
+    - CMSYEAR_mu_scale_singlet  shape
+    - CMSYEAR_mu_scale_diboson  shape
+    - CMSYEAR_mu_scale_smh      shape
+    - CMSYEAR_trig_met          shape
+    # - CMSYEAR_muon_prefiring    1.005
+    - CMSYEAR_prefire           shape
+    # - norm_dyjets               1.05
+
+# WE REGION
+WE:
+  bin:
+    - WE:24
+  Process:
+    - bin1_wjets bin2_wjets bin3_wjets bin4_wjets bin1_tt bin2_tt bin3_tt bin4_tt bin1_singlet bin2_singlet bin3_singlet bin4_singlet bin1_diboson bin2_diboson bin3_diboson bin4_diboson bin1_smh bin2_smh bin3_smh bin4_smh bin1_dyjets bin2_dyjets bin3_dyjets bin4_dyjets
+  process1:
+    - 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23   24
+  rate:
+    - -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+  NuisForProc:
+    - lumi_YEAR:                [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_BeamCC:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_BeamBE:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_GhostS:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_LengthS:             [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_X_Y_Fact:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_PU:               [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_trig_ele:         [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_eff_b:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_fake_b:           [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_EleID:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_EleRECO:          [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_MuISO:            []
+    - CMSYEAR_MuID:             []
+    - CMSYEAR_veto_tau:         [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECAbsolute:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECAbsolute_YEAR:         [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECBBEC1:                 [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECBBEC1_YEAR:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECEC2:                   [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECEC2_YEAR:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECFlavorQCD:             [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECHF:                    [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECHF_YEAR:               [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECRelativeBal:           [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECRelativeSample_YEAR:   [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - norm_stop:                [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - norm_diboson:             [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - norm_smh:                 [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_pdf:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_mu_scale_wjets:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets]
+    - CMSYEAR_mu_scale_tt:      [bin1_tt, bin2_tt, bin3_tt, bin4_tt ]
+    - CMSYEAR_mu_scale_singlet: [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - CMSYEAR_mu_scale_diboson: [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - CMSYEAR_mu_scale_smh:     [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_mu_scale_dyjets:  [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_trig_met:         []
+    # - CMSYEAR_muon_prefiring:   []
+    - CMSYEAR_prefire:          [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    # - norm_dyjets:              [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+
+  UnclnN:
+    - lumi_YEAR                 1.02
+    - lumi_BeamCC               1.003
+    - lumi_BeamBE               1.006
+    - lumi_GhostS               1.003
+    - lumi_LengthS              1.003
+    - lumi_X_Y_Fact             1.003
+    - CMSYEAR_PU                shape
+    - CMSYEAR_trig_ele          shape
+    - CMSYEAR_eff_b             shape
+    - CMSYEAR_fake_b            shape
+    - CMSYEAR_EleID             shape
+    - CMSYEAR_EleRECO           shape
+    - CMSYEAR_MuISO             shape
+    - CMSYEAR_MuID              shape
+    - CMSYEAR_veto_tau          1.03
+    - JECAbsolute               shape
+    - JECAbsolute_YEAR          shape
+    - JECBBEC1                  shape
+    - JECBBEC1_YEAR             shape
+    - JECEC2                    shape
+    - JECEC2_YEAR               shape
+    - JECFlavorQCD              shape
+    - JECHF                     shape
+    - JECHF_YEAR                shape
+    - JECRelativeBal            shape
+    - JECRelativeSample_YEAR    shape
+    - norm_stop                 1.1
+    - norm_diboson              1.2
+    - norm_smh                  1.2
+    - CMSYEAR_pdf               shape
+    - CMSYEAR_mu_scale_wjets    shape
+    - CMSYEAR_mu_scale_tt       shape
+    - CMSYEAR_mu_scale_singlet  shape
+    - CMSYEAR_mu_scale_diboson  shape
+    - CMSYEAR_mu_scale_smh      shape
+    - CMSYEAR_mu_scale_dyjets   shape
+    - CMSYEAR_trig_met          shape
+    # - CMSYEAR_muon_prefiring    1.005
+    - CMSYEAR_prefire           shape
+    # - norm_dyjets               1.05
+
+
+# WMU REGION
+WMU:
+  bin:
+    - WMU:24
+  Process:
+    - bin1_wjets bin2_wjets bin3_wjets bin4_wjets bin1_tt bin2_tt bin3_tt bin4_tt bin1_singlet bin2_singlet bin3_singlet bin4_singlet bin1_diboson bin2_diboson bin3_diboson bin4_diboson bin1_smh bin2_smh bin3_smh bin4_smh bin1_dyjets bin2_dyjets bin3_dyjets bin4_dyjets
+  process1:
+    - 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23   24
+  rate:
+    - -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+  NuisForProc:
+    - lumi_YEAR:                [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_BeamCC:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_BeamBE:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_GhostS:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_LengthS:             [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - lumi_X_Y_Fact:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_PU:               [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_trig_ele:         []
+    - CMSYEAR_eff_b:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_fake_b:           [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_EleID:            []
+    - CMSYEAR_EleRECO:          []
+    - CMSYEAR_MuISO:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_MuID:             [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_veto_tau:         [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECAbsolute:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECAbsolute_YEAR:         [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECBBEC1:                 [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECBBEC1_YEAR:            [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECEC2:                   [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECEC2_YEAR:              [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECFlavorQCD:             [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECHF:                    [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECHF_YEAR:               [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECRelativeBal:           [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - JECRelativeSample_YEAR:   [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - norm_stop:                [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - norm_diboson:             [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - norm_smh:                 [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_pdf:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_mu_scale_wjets:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets]
+    - CMSYEAR_mu_scale_tt:      [bin1_tt, bin2_tt, bin3_tt, bin4_tt ]
+    - CMSYEAR_mu_scale_singlet: [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - CMSYEAR_mu_scale_diboson: [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - CMSYEAR_mu_scale_smh:     [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_mu_scale_dyjets:  [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_trig_met:         [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    # - CMSYEAR_muon_prefiring:   [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_prefire:          [bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    # - norm_dyjets:              [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+  UnclnN:
+    - lumi_YEAR                 1.02
+    - lumi_BeamCC               1.003
+    - lumi_BeamBE               1.006
+    - lumi_GhostS               1.003
+    - lumi_LengthS              1.003
+    - lumi_X_Y_Fact             1.003
+    - CMSYEAR_PU                shape
+    - CMSYEAR_trig_ele          shape
+    - CMSYEAR_eff_b             shape
+    - CMSYEAR_fake_b            shape
+    - CMSYEAR_EleID             shape
+    - CMSYEAR_EleRECO           shape
+    - CMSYEAR_MuISO             shape
+    - CMSYEAR_MuID              shape
+    - CMSYEAR_veto_tau          1.03
+    - JECAbsolute               shape
+    - JECAbsolute_YEAR          shape
+    - JECBBEC1                  shape
+    - JECBBEC1_YEAR             shape
+    - JECEC2                    shape
+    - JECEC2_YEAR               shape
+    - JECFlavorQCD              shape
+    - JECHF                     shape
+    - JECHF_YEAR                shape
+    - JECRelativeBal            shape
+    - JECRelativeSample_YEAR    shape
+    - norm_stop                 1.1
+    - norm_diboson              1.2
+    - norm_smh                  1.2
+    - CMSYEAR_pdf               shape
+    - CMSYEAR_mu_scale_wjets    shape
+    - CMSYEAR_mu_scale_tt       shape
+    - CMSYEAR_mu_scale_singlet  shape
+    - CMSYEAR_mu_scale_diboson  shape
+    - CMSYEAR_mu_scale_smh      shape
+    - CMSYEAR_mu_scale_dyjets   shape
+    - CMSYEAR_trig_met          shape
+    # - CMSYEAR_muon_prefiring    1.005
+    - CMSYEAR_prefire           shape
+    # - norm_dyjets               1.05
+
+# ZEE
+ZEE:
+  bin:
+    - ZEE:24
+  Process:
+    - bin1_wjets bin2_wjets bin3_wjets bin4_wjets bin1_tt bin2_tt bin3_tt bin4_tt bin1_singlet bin2_singlet bin3_singlet bin4_singlet bin1_diboson bin2_diboson bin3_diboson bin4_diboson bin1_smh bin2_smh bin3_smh bin4_smh bin1_dyjets bin2_dyjets bin3_dyjets bin4_dyjets
+  process1:
+    - 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23   24
+  rate:
+    - -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+  NuisForProc:
+    - lumi_YEAR:                [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_BeamCC:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_BeamBE:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_GhostS:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_LengthS:             [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_X_Y_Fact:            [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_PU:               [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_trig_ele:         [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_eff_b:            []
+    - CMSYEAR_fake_b:           []
+    - CMSYEAR_EleID:            [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_EleRECO:          [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_MuISO:            []
+    - CMSYEAR_MuID:             []
+    - CMSYEAR_veto_tau:         [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECAbsolute:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECAbsolute_YEAR:         [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECBBEC1:                 [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECBBEC1_YEAR:            [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECEC2:                   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECEC2_YEAR:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECFlavorQCD:             [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECHF:                    [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECHF_YEAR:               [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECRelativeBal:           [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECRelativeSample_YEAR:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - norm_stop:                [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - norm_diboson:             [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - norm_smh:                 [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_pdf:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_mu_scale_wjets:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets]
+    - CMSYEAR_mu_scale_tt:      [bin1_tt, bin2_tt, bin3_tt, bin4_tt ]
+    - CMSYEAR_mu_scale_singlet: [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - CMSYEAR_mu_scale_diboson: [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - CMSYEAR_mu_scale_smh:     [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_mu_scale_dyjets:  [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_trig_met:         []
+    # - CMSYEAR_muon_prefiring:   []
+    - CMSYEAR_prefire:          [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    # - norm_dyjets:              [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+  UnclnN:
+    - lumi_YEAR                 1.02
+    - lumi_BeamCC               1.003
+    - lumi_BeamBE               1.006
+    - lumi_GhostS               1.003
+    - lumi_LengthS              1.003
+    - lumi_X_Y_Fact             1.003
+    - CMSYEAR_PU                shape
+    - CMSYEAR_trig_ele          shape
+    - CMSYEAR_eff_b             shape
+    - CMSYEAR_fake_b            shape
+    - CMSYEAR_EleID             shape
+    - CMSYEAR_EleRECO           shape
+    - CMSYEAR_MuISO             shape
+    - CMSYEAR_MuID              shape
+    - CMSYEAR_veto_tau          1.03
+    - JECAbsolute               shape
+    - JECAbsolute_YEAR          shape
+    - JECBBEC1                  shape
+    - JECBBEC1_YEAR             shape
+    - JECEC2                    shape
+    - JECEC2_YEAR               shape
+    - JECFlavorQCD              shape
+    - JECHF                     shape
+    - JECHF_YEAR                shape
+    - JECRelativeBal            shape
+    - JECRelativeSample_YEAR    shape
+    - norm_stop                 1.1
+    - norm_diboson              1.2
+    - norm_smh                  1.2
+    - CMSYEAR_pdf               shape
+    - CMSYEAR_mu_scale_wjets    shape
+    - CMSYEAR_mu_scale_tt       shape
+    - CMSYEAR_mu_scale_singlet  shape
+    - CMSYEAR_mu_scale_diboson  shape
+    - CMSYEAR_mu_scale_smh      shape
+    - CMSYEAR_mu_scale_dyjets   shape
+    - CMSYEAR_trig_met          shape
+    # - CMSYEAR_muon_prefiring    1.005
+    - CMSYEAR_prefire           shape
+    # - norm_dyjets               1.05
+
+# ZMUMU REGION
+ZMUMU:
+  bin:
+    - ZMUMU:24
+  Process:
+    - bin1_wjets bin2_wjets bin3_wjets bin4_wjets bin1_tt bin2_tt bin3_tt bin4_tt bin1_singlet bin2_singlet bin3_singlet bin4_singlet bin1_diboson bin2_diboson bin3_diboson bin4_diboson bin1_smh bin2_smh bin3_smh bin4_smh bin1_dyjets bin2_dyjets bin3_dyjets bin4_dyjets
+  process1:
+    - 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23   24
+  rate:
+    - -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+  NuisForProc:
+    - lumi_YEAR:                [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_BeamCC:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_BeamBE:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_GhostS:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_LengthS:             [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - lumi_X_Y_Fact:            [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_PU:               [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_trig_ele:         []
+    - CMSYEAR_eff_b:            []
+    - CMSYEAR_fake_b:           []
+    - CMSYEAR_EleID:            []
+    - CMSYEAR_EleRECO:          []
+    - CMSYEAR_MuISO:            [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_MuID:             [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_veto_tau:         [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECAbsolute:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECAbsolute_YEAR:         [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECBBEC1:                 [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECBBEC1_YEAR:            [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECEC2:                   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECEC2_YEAR:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECFlavorQCD:             [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECHF:                    [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECHF_YEAR:               [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECRelativeBal:           [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - JECRelativeSample_YEAR:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - norm_stop:                [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - norm_diboson:             [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - norm_smh:                 [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_pdf:              [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh, bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_mu_scale_wjets:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets]
+    - CMSYEAR_mu_scale_tt:      [bin1_tt, bin2_tt, bin3_tt, bin4_tt ]
+    - CMSYEAR_mu_scale_singlet: [bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet]
+    - CMSYEAR_mu_scale_diboson: [bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson]
+    - CMSYEAR_mu_scale_smh:     [bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_mu_scale_dyjets:  [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+    - CMSYEAR_trig_met:         [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    # - CMSYEAR_muon_prefiring:   [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - CMSYEAR_prefire:          [bin1_wjets, bin2_wjets, bin3_wjets, bin4_wjets, bin1_tt, bin2_tt, bin3_tt, bin4_tt , bin1_singlet, bin2_singlet, bin3_singlet, bin4_singlet, bin1_diboson, bin2_diboson, bin3_diboson, bin4_diboson, bin1_smh, bin2_smh, bin3_smh, bin4_smh]
+    - norm_dyjets:              [bin1_dyjets, bin2_dyjets, bin3_dyjets, bin4_dyjets]
+  UnclnN:
+    - lumi_YEAR                 1.02
+    - lumi_BeamCC               1.003
+    - lumi_BeamBE               1.006
+    - lumi_GhostS               1.003
+    - lumi_LengthS              1.003
+    - lumi_X_Y_Fact             1.003
+    - CMSYEAR_PU                shape
+    - CMSYEAR_trig_ele          shape
+    - CMSYEAR_eff_b             shape
+    - CMSYEAR_fake_b            shape
+    - CMSYEAR_EleID             shape
+    - CMSYEAR_EleRECO           shape
+    - CMSYEAR_MuISO             shape
+    - CMSYEAR_MuID              shape
+    - CMSYEAR_veto_tau          1.03
+    - JECAbsolute               shape
+    - JECAbsolute_YEAR          shape
+    - JECBBEC1                  shape
+    - JECBBEC1_YEAR             shape
+    - JECEC2                    shape
+    - JECEC2_YEAR               shape
+    - JECFlavorQCD              shape
+    - JECHF                     shape
+    - JECHF_YEAR                shape
+    - JECRelativeBal            shape
+    - JECRelativeSample_YEAR    shape
+    - norm_stop                 1.1
+    - norm_diboson              1.2
+    - norm_smh                  1.2
+    - CMSYEAR_pdf               shape
+    - CMSYEAR_mu_scale_wjets    shape
+    - CMSYEAR_mu_scale_tt       shape
+    - CMSYEAR_mu_scale_singlet  shape
+    - CMSYEAR_mu_scale_diboson  shape
+    - CMSYEAR_mu_scale_smh      shape
+    - CMSYEAR_mu_scale_dyjets   shape
+    - CMSYEAR_trig_met          shape
+    # - CMSYEAR_muon_prefiring    1.005
+    - CMSYEAR_prefire           shape
+    # - norm_dyjets               1.05

@@ -1,0 +1,279 @@
+pullsNimpacts2016 datacards/datacard_bbDM2016_2b/bbDM_datacard_2016_THDMa_2b_allregion_2HDMa_Ma150_MChi1_MA600_tb35_st_0p7.txt 2016 2b
+Datacard workspace does not exist, creating it...
+============================================================
+Analysing bin errors for: prop_binsr_bin1
+Poisson cut-off: 90
+Processes excluded for sums: 2HDMa_Ma150_MChi1_MA600_tb35_st_0p7
+============================================================
+Bin        Contents        Error           Notes                         
+0          651.935215      30.539510       total sum                     
+0          616.097343      29.204918       excluding marked processes    
+0          445.000000      21.095023       Unweighted events, alpha=1.465023
+  => Total parameter prop_binsr_bin1_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binsr_bin2
+Poisson cut-off: 90
+Processes excluded for sums: 2HDMa_Ma150_MChi1_MA600_tb35_st_0p7
+============================================================
+Bin        Contents        Error           Notes                         
+0          581.608152      28.365556       total sum                     
+0          544.277273      26.873080       excluding marked processes    
+0          410.000000      20.248457       Unweighted events, alpha=1.418556
+  => Total parameter prop_binsr_bin2_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binsr_bin3
+Poisson cut-off: 90
+Processes excluded for sums: 2HDMa_Ma150_MChi1_MA600_tb35_st_0p7
+============================================================
+Bin        Contents        Error           Notes                         
+0          436.869058      32.639035       total sum                     
+0          359.104867      29.895661       excluding marked processes    
+0          144.000000      12.000000       Unweighted events, alpha=3.033813
+  => Total parameter prop_binsr_bin3_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binsr_bin4
+Poisson cut-off: 90
+Processes excluded for sums: 2HDMa_Ma150_MChi1_MA600_tb35_st_0p7
+============================================================
+Bin        Contents        Error           Notes                         
+0          298.450767      26.749524       total sum                     
+0          230.722442      23.924577       excluding marked processes    
+0          93.000000       9.643651        Unweighted events, alpha=3.209148
+  => Total parameter prop_binsr_bin4_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binzll_bin1
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          6723.686661     134.449454      total sum                     
+0          2501.000000     50.009999       Unweighted events, alpha=2.688399
+  => Total parameter prop_binzll_bin1_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binzll_bin2
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          6426.281357     140.713208      total sum                     
+0          2086.000000     45.672749       Unweighted events, alpha=3.080672
+  => Total parameter prop_binzll_bin2_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binzll_bin3
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          5656.524788     141.745913      total sum                     
+0          1592.000000     39.899875       Unweighted events, alpha=3.553093
+  => Total parameter prop_binzll_bin3_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_binzll_bin4
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          4262.800827     134.418640      total sum                     
+0          1006.000000     31.717503       Unweighted events, alpha=4.237377
+  => Total parameter prop_binzll_bin4_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_bintopl_bin1
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          1341.979130     20.979795       total sum                     
+0          4092.000000     63.968742       Unweighted events, alpha=0.327952
+  => Total parameter prop_bintopl_bin1_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_bintopl_bin2
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          1216.313387     19.356096       total sum                     
+0          3949.000000     62.841069       Unweighted events, alpha=0.308005
+  => Total parameter prop_bintopl_bin2_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_bintopl_bin3
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          846.236286      18.242353       total sum                     
+0          2152.000000     46.389654       Unweighted events, alpha=0.393232
+  => Total parameter prop_bintopl_bin3_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+============================================================
+Analysing bin errors for: prop_bintopl_bin4
+Poisson cut-off: 90
+============================================================
+Bin        Contents        Error           Notes                         
+0          356.375190      13.809674       total sum                     
+0          666.000000      25.806976       Unweighted events, alpha=0.535098
+  => Total parameter prop_bintopl_bin4_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+Warning: Bin zll_bin1 has no signal processes contributing to it
+Warning: Bin zll_bin2 has no signal processes contributing to it
+Warning: Bin zll_bin3 has no signal processes contributing to it
+Warning: Bin zll_bin4 has no signal processes contributing to it
+Warning: Bin topl_bin1 has no signal processes contributing to it
+Warning: Bin topl_bin2 has no signal processes contributing to it
+Warning: Bin topl_bin3 has no signal processes contributing to it
+Warning: Bin topl_bin4 has no signal processes contributing to it
+Channel sr_bin1 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel sr_bin2 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel sr_bin3 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel sr_bin4 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel zll_bin1 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel zll_bin2 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel zll_bin3 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel zll_bin4 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel topl_bin1 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel topl_bin2 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel topl_bin3 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Channel topl_bin4 will use autoMCStats with settings: event-threshold=90, include-signal=0, hist-mode=1
+Datacard workspace name: datacards/datacard_bbDM2016_2b/bbDM_datacard_2016_THDMa_2b_allregion_2HDMa_Ma150_MChi1_MA600_tb35_st_0p7.root
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Configured fallback algorithm , type Minuit2, algo Migrad, strategy 0, tolerance 1
+>>> method used is FitDiagnostics
+Set Default Value of Parameter mask_sr_bin1 To : 1
+Set Default Value of Parameter mask_sr_bin2 To : 1
+Set Default Value of Parameter mask_sr_bin3 To : 1
+Set Default Value of Parameter mask_sr_bin4 To : 1
+Warning: Did not find a parameter with name mask_cat_1b_sr_bin1
+Warning: Did not find a parameter with name mask_cat_1b_sr_bin2
+Warning: Did not find a parameter with name mask_cat_1b_sr_bin3
+Warning: Did not find a parameter with name mask_cat_1b_sr_bin4
+Warning: Did not find a parameter with name mask_cat_2b_sr_bin1
+Warning: Did not find a parameter with name mask_cat_2b_sr_bin2
+Warning: Did not find a parameter with name mask_cat_2b_sr_bin3
+Warning: Did not find a parameter with name mask_cat_2b_sr_bin4
+Warning: Did not find a parameter with name mask_d2016_cat_1b_sr_bin1
+Warning: Did not find a parameter with name mask_d2016_cat_1b_sr_bin2
+Warning: Did not find a parameter with name mask_d2016_cat_1b_sr_bin3
+Warning: Did not find a parameter with name mask_d2016_cat_1b_sr_bin4
+Warning: Did not find a parameter with name mask_d2016_cat_2b_sr_bin1
+Warning: Did not find a parameter with name mask_d2016_cat_2b_sr_bin2
+Warning: Did not find a parameter with name mask_d2016_cat_2b_sr_bin3
+Warning: Did not find a parameter with name mask_d2016_cat_2b_sr_bin4
+Warning: Did not find a parameter with name mask_d2017_cat_1b_sr_bin1
+Warning: Did not find a parameter with name mask_d2017_cat_1b_sr_bin2
+Warning: Did not find a parameter with name mask_d2017_cat_1b_sr_bin3
+Warning: Did not find a parameter with name mask_d2017_cat_1b_sr_bin4
+Warning: Did not find a parameter with name mask_d2017_cat_2b_sr_bin1
+Warning: Did not find a parameter with name mask_d2017_cat_2b_sr_bin2
+Warning: Did not find a parameter with name mask_d2017_cat_2b_sr_bin3
+Warning: Did not find a parameter with name mask_d2017_cat_2b_sr_bin4
+Warning: Did not find a parameter with name mask_d2018_cat_1b_sr_bin1
+Warning: Did not find a parameter with name mask_d2018_cat_1b_sr_bin2
+Warning: Did not find a parameter with name mask_d2018_cat_1b_sr_bin3
+Warning: Did not find a parameter with name mask_d2018_cat_1b_sr_bin4
+Warning: Did not find a parameter with name mask_d2018_cat_2b_sr_bin1
+Warning: Did not find a parameter with name mask_d2018_cat_2b_sr_bin2
+Warning: Did not find a parameter with name mask_d2018_cat_2b_sr_bin3
+Warning: Did not find a parameter with name mask_d2018_cat_2b_sr_bin4
+>>> 4 out of 12 channels masked
+
+SimNLL created with 0 channels, 0 generic constraints, 52 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 12 channels, 0 generic constraints, 52 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [ratett_2b_2016_bin3] at boundary. 
+  [WARNING] Found [ratett_2b_2016_bin4] at boundary. 
+  [WARNING] Found [ratett_2b_2016_bin3] at boundary. 
+  [WARNING] Found [ratett_2b_2016_bin4] at boundary. 
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. The option --saveWithUncertainties will be ignored as it would lead to incorrect results. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+19  (68% CL)
+Done in 1.35 min (cpu), 1.35 min (real)
+
+Processing plotPostNuisance_combine.C("fitDiagnosticsDir/fitDiagnostics_2b_2016_fit_CRonly_result_pullsNimpacts2016.root","pullsANDimpacts/pullsNimpacts2016/","2b_2016_fit_CRonly_result_pullsNimpacts2016")...
+MaxUncertainty: 1
+-------------------------------------------------------------------------------
+Index :::               Nuisance name              :       Pull +/- uncertainty
+-------------------------------------------------------------------------------
+ name_tstr: CMS2016_EleID
+ name_tstr: CMS2016_EleRECO
+ name_tstr: CMS2016_MuID
+ name_tstr: CMS2016_MuISO
+ name_tstr: CMS2016_PU
+ name_tstr: CMS2016_eff_b
+ name_tstr: CMS2016_fake_b
+ name_tstr: CMS2016_mu_scale_diboson
+ name_tstr: CMS2016_mu_scale_dyjets
+ name_tstr: CMS2016_mu_scale_singlet
+ name_tstr: CMS2016_mu_scale_smh
+ name_tstr: CMS2016_mu_scale_tt
+ name_tstr: CMS2016_mu_scale_wjets
+ name_tstr: CMS2016_muon_prefiring
+ name_tstr: CMS2016_pdf
+ name_tstr: CMS2016_prefire
+ name_tstr: CMS2016_trig_ele
+ name_tstr: CMS2016_trig_met
+ name_tstr: CMS2016_veto_tau
+ name_tstr: JECAbsolute
+ name_tstr: JECAbsolute_2016
+ name_tstr: JECBBEC1
+ name_tstr: JECBBEC1_2016
+ name_tstr: JECEC2
+ name_tstr: JECEC2_2016
+ name_tstr: JECFlavorQCD
+ name_tstr: JECHF
+ name_tstr: JECHF_2016
+ name_tstr: JECRelativeBal
+ name_tstr: JECRelativeSample_2016
+ name_tstr: lumi_2016
+ name_tstr: lumi_BeamBE
+ name_tstr: lumi_BeamCC
+ name_tstr: lumi_GhostS
+ name_tstr: lumi_LengthS
+ name_tstr: lumi_X_Y_Fact
+ name_tstr: norm_diboson
+ name_tstr: norm_dyjets
+ name_tstr: norm_smh
+ name_tstr: norm_stop
+ name_tstr: prop_binsr_bin1_bin0
+ name_tstr: prop_binsr_bin2_bin0
+ name_tstr: prop_binsr_bin3_bin0
+ name_tstr: prop_binsr_bin4_bin0
+ name_tstr: prop_bintopl_bin1_bin0
+ name_tstr: prop_bintopl_bin2_bin0
+ name_tstr: prop_bintopl_bin3_bin0
+ name_tstr: prop_bintopl_bin4_bin0
+ name_tstr: prop_binzll_bin1_bin0
+ name_tstr: prop_binzll_bin2_bin0
+ name_tstr: prop_binzll_bin3_bin0
+ name_tstr: prop_binzll_bin4_bin0
+ name_tstr: ratett_2b_2016_bin1
+ name_tstr: ratett_2b_2016_bin2
+ name_tstr: ratett_2b_2016_bin3
+ name_tstr: ratett_2b_2016_bin4
+ name_tstr: ratezjets_2b_2016_bin1
+ name_tstr: ratezjets_2b_2016_bin2
+ name_tstr: ratezjets_2b_2016_bin3
+ name_tstr: ratezjets_2b_2016_bin4
+-------------------------------------------------------------------------------
+
+ ****************************** LARGE VARIATION ****************************** 
+ ****************************************************************************** 
+
+nuisance_all60
+total number of canvas 1
+start  0  last  90
+Info in <TCanvas::Print>: pdf file pullsANDimpacts/pullsNimpacts2016//pulls_cronly2b_2016_fit_CRonly_result_pullsNimpacts2016_1.pdf has been created
+Info in <TCanvas::Print>: png file pullsANDimpacts/pullsNimpacts2016//pulls_cronly2b_2016_fit_CRonly_result_pullsNimpacts2016_1.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pullsANDimpacts/pullsNimpacts2016//pulls_cronly2b_2016_fit_CRonly_result_pullsNimpacts2016_1.C has been generated
+Info in <TCanvas::SaveAs>: ROOT file pullsANDimpacts/pullsNimpacts2016//pulls_cronly2b_2016_fit_CRonly_result_pullsNimpacts2016_1.root has been created
+removed 'higgsCombine_2b_2016_fit_CRonly_result_pullsNimpacts2016.FitDiagnostics.mH120.root'
+## asimov b-only
+mode=asimov_t_0
+
+# combine -M FitDiagnostics  datacards/datacard_bbDM2016_2b/bbDM_datacard_2016_THDMa_2b_allregion_2HDMa_Ma150_MChi1_MA600_tb35_st_0p7.root --saveShapes --saveWithUncertainties -t -1 --expectSignal 0 -n _2b_2016_fit_CRonly_result_pullsNimpacts2016 --cminDefaultMinimizerStrategy 0 --out fitDiagnosticsDir
+# python diffNuisances.py fitDiagnosticsDir/fitDiagnostics_2b_2016_fit_CRonly_result_pullsNimpacts2016.root --abs --all -g fitDiagnosticsDir/pulls_2b_2016_fit_CRonly_result_pullsNimpacts2016.root
+root -l -b -q PlotPulls.C\(\"fitDiagnosticsDir/pulls_2b_2016_fit_CRonly_result_pullsNimpacts2016.root\",\"pullsANDimpacts/pullsNimpacts2016/\",\"_2b_2016_fit_CRonly_result_pullsNimpacts2016\"\)
+
+rm -rf higgsCombine_2b_2016_fit_CRonly_result_pullsNimpacts2016.FitDiagnostics*
